@@ -1,5 +1,5 @@
 #!/bin/bash
 
-title="pacifisted"
+title="pacifisted-de"
 
 eval "echo \"$(cat index.html)\"" > index-de.html

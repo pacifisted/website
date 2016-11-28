@@ -8,7 +8,7 @@ mv index-de.html de/index.html
 
 git add -A .
 
-#git commit -m"Deploying website..."
-#git subtree push --prefix=website-en website-en gh-pages
-#git subtree push --prefix=website-de website-de gh-pages
-
+git commit -m"Deploying website..."
+git push origin gh-pages
+git subtree push --prefix de de gh-pages
+git subtree push --prefix en en gh-pages

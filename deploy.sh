@@ -5,10 +5,12 @@
 
 mv index-en.html en/index.html
 mv index-de.html de/index.html
-cp -R js en/js
-cp -R js de/js
-cp -R css en/css
-cp -R css de/css
+cp -R js en/
+cp -R js de/
+cp -R css en/
+cp -R css de/
+cp -R img en/
+cp -R img de/
 
 if [ -z "$1" ]; then
   echo "Dry-run deployment..."

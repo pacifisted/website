@@ -1,5 +1,5 @@
 #!/bin/bash
 
-title="pacifisted-de"
+export title="pacifisted-de"
 
-eval "echo \"$(cat index.html)\"" > index-de.html
+envsubst < index.html > index-de.html

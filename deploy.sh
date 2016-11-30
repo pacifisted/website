@@ -10,9 +10,13 @@ cp -R js de/js
 cp -R css en/css
 cp -R css de/css
 
-git add -A .
-
-git commit -m"Deploying website..."
-git push origin gh-pages
-git subtree push --prefix de de gh-pages
-git subtree push --prefix en en gh-pages
+if [ -z "$1" ]; then
+  echo "Dry-run deployment..."
+else
+  echo "Deploying the website with the commit message: $1"
+  git add -A .
+  git commit -m"Deploying website..."
+  git push origin gh-pages
+  git subtree push --prefix de de gh-pages
+  git subtree push --prefix en en gh-pages
+fi

@@ -3,14 +3,14 @@
 . en.sh
 . de.sh
 
-mv index-en.html en/index.html
-mv index-de.html de/index.html
-cp -R js en/
-cp -R js de/
-cp -R css en/
-cp -R css de/
-cp -R img en/
-cp -R img de/
+mv index-en.html ../website-en/index.html
+mv index-de.html ../website-de/index.html
+cp -R js ../website-en/
+cp -R js ../website-de/
+cp -R css ../website-en/
+cp -R css ../website-de/
+cp -R img ../website-en/
+cp -R img ../website-de/
 
 if [ -z "$1" ]; then
   echo "Dry-run deployment..."
@@ -19,6 +19,17 @@ else
   git add -A .
   git commit -m"$1"
   git push origin gh-pages
-  git subtree push --prefix de de gh-pages
-  git subtree push --prefix en en gh-pages
+  echo "Deploying en website..."
+  cd ../website-en/
+  git add -A .
+  git commit -m"$1"
+  git push origin gh-pages
+  echo "Deploying de website..."
+  cd ../website-de/
+  git add -A .
+  git commit -m"$1"
+  git push origin gh-pages
+
+#  git subtree push --prefix de de gh-pages
+#  git subtree push --prefix en en gh-pages
 fi

@@ -23,4 +23,6 @@ export mailing_list_headline="Newsletter"
 
 export social_headline="Sozial"
 
+export lang_link="<a href=\"http://pacifisted.com\">English Version</a>"
+
 envsubst < index.html > index-de.html

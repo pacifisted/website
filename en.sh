@@ -23,4 +23,6 @@ export mailing_list_headline="Mailing List"
 
 export social_headline="Social"
 
+export lang_link="<a href=\"http://pacifisted.de\">Deutsche Version</a>"
+
 envsubst < index.html > index-en.html

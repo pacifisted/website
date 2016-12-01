@@ -17,7 +17,7 @@ if [ -z "$1" ]; then
 else
   echo "Deploying the website with the commit message: $1"
   git add -A .
-  git commit -m"Deploying website..."
+  git commit -m"$1"
   git push origin gh-pages
   git subtree push --prefix de de gh-pages
   git subtree push --prefix en en gh-pages

@@ -8,13 +8,9 @@ export news_item1_body="Unsere neue website..."
 export the_music_headline="Musik"
 
 export the_band_headline="Die Band"
-export rolf_bio="<b>Gitarre</b> - Rolf bio copy goes here.."
-export dennis_bio="<b>Schlagzeug</b> - Dennis bio copy goes here.."
-export sam_bio="<b>Gesang</b> - Sam bio copy goes here.."
-
-
-export history_headline="Historie"
-export history_body="History copy goes here..."
+export rolf_bio="<b>Gitarre</b>"
+export dennis_bio="<b>Schlagzeug</b>"
+export sam_bio="<b>Gesang</b>"
 
 export contact_headline="Kontact"
 export contact_body="Contact info copy..."

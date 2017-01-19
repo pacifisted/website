@@ -11,6 +11,8 @@ cp -R css ../website-en/
 cp -R css ../website-de/
 cp -R img ../website-en/
 cp -R img ../website-de/
+cp -R demos ../website-en/
+cp -R demos ../website-de/
 
 if [ -z "$1" ]; then
   echo "Dry-run deployment..."

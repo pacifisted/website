@@ -2,10 +2,14 @@
 
 export title="pacifisted"
 export news_headline="Aktuell"
+export news_item2_headline="Musiker?"
+export news_item2_body="<p>Wir suchen einen Bassisten und/oder einen Gitarristen (8-Seiter wäre optimal)</p><p>Hör mal unsere Demos an, und wenn es dich anspricht, kannst du uns gerne über das Kontakformular unten kontaktieren.</p>"
 export news_item1_headline="Website, Online"
-export news_item1_body="Unsere neue website..."
+export news_item1_body="<p>Also, los gehts. Wir sind online.</p><p>Wir haben gerade erst angefangen, aber wir kommen voran. Bald gibt es ein paar Demos zum Reinhören.</p>"
+
 
 export the_music_headline="Musik"
+export the_music_body="<p>Wir sind ein Band aus Konstanz am Bodensee</p><p>Wir machen Musik, die dich ganz sanft ins Gesicht schlägt</p>"
 
 export the_band_headline="Die Band"
 export rolf_bio="<b>Gitarre</b>"

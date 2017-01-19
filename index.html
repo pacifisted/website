@@ -47,10 +47,17 @@
           <div class="icon-block">
             <h2 class="center"><i class="material-icons">markunread_mailbox</i></h2>
             <h3 class="center">$news_headline</h3>
+            <hr>
+            <div class="">
+              <h4 class="light">$news_item2_headline</h4>
+              <p class="light">$news_item2_body</p>
+            </div>
+            <hr>
             <div class="">
               <h4 class="light">$news_item1_headline</h4>
               <p class="light">$news_item1_body</p>
             </div>
+            <hr>
           </div>
         </div>
         
@@ -59,24 +66,26 @@
           <div class="icon-block">
             <h2 class="center"><i class="material-icons">music_video</i></h2>
             <h3 class="center">$the_music_headline</h3>
+            <hr>
+            <p class="light">$the_music_body</p>
             <div class="col s12">
               <div class="card-panel grey lighten-5 z-depth-1">
                 <h5>The Fifth Horseman</h5>
-                <span class="black-text">
-                  ...demo here...
-                </span>
+                <audio controls>
+                  <source src="demos/the-fifth-horseman.mp3" type="audio/mp3">
+                </audio>
               </div>
               <div class="card-panel grey lighten-5 z-depth-1">
                 <h5>Marbles</h5>
-                <span class="black-text">
-                  ...demo here...
-                </span>
+                <audio controls>
+                  <source src="demos/marbles.mp3" type="audio/mp3">
+                </audio>
               </div>
               <div class="card-panel grey lighten-5 z-depth-1">
                 <h5>Spacetime</h5>
-                <span class="black-text">
-                  ...demo here...
-                </span>
+                <audio controls>
+                  <source src="demos/spacetime.mp3" type="audio/mp3">
+                </audio>
               </div>
             </div>
           </div>
@@ -163,7 +172,7 @@
 
   <footer class="page-footer white">
     <div class="container">
-      <div class="row">
+      <div class="row hide">
         <div class="col l6 s12">
           <h5 class="center">$mailing_list_headline</h5>
           <div class="card-panel grey lighten-5 z-depth-1">

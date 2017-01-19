@@ -12,6 +12,10 @@ h1, h2 {
   height: 200px;
 }
 
+audio {
+  width:100%;
+}
+
 @media only screen and (max-width: 922px) {
     .logo {
        letter-spacing: 1.8rem;

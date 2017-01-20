@@ -29,4 +29,6 @@ export social_headline="Sozial"
 
 export lang_link="<a href=\"http://pacifisted.com\">English Version</a>"
 
+export google_analytics_id="UA-90644419-2"
+
 envsubst < index.html > index-de.html

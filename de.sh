@@ -1,6 +1,10 @@
 #!/bin/bash
 
 export title="pacifisted"
+
+export google_site_verification="<meta name=\"google-site-verification\" content=\"31hJyA9vPcXBw5we9RvVAoA_lRiVg_RyP89MF1upRRo\" />"
+export link_rel_lang="<link rel=\"alternate\" hreflang=\"en\" href=\"https://pacifisted.com/\" />"
+
 export news_headline="Aktuell"
 export news_item2_headline="Musiker?"
 export news_item2_body="<p>Wir suchen einen Bassisten und/oder einen Gitarristen (8-Seiter wäre optimal)</p><p>Hör mal unsere Demos an, und wenn es dich anspricht, kannst du uns gerne über das Kontakformular unten kontaktieren.</p>"
